@@ -186,7 +186,7 @@ namespace Meshtastic.Protobufs {
             "AygNIqoBChZDaHVua2VkUGF5bG9hZFJlc3BvbnNlEhIKCnBheWxvYWRfaWQY",
             "ASABKA0SGgoQcmVxdWVzdF90cmFuc2ZlchgCIAEoCEgAEhkKD2FjY2VwdF90",
             "cmFuc2ZlchgDIAEoCEgAEjIKDXJlc2VuZF9jaHVua3MYBCABKAsyGS5tZXNo",
-            "dGFzdGljLnJlc2VuZF9jaHVua3NIAEIRCg9wYXlsb2FkX3ZhcmlhbnQqzxAK",
+            "dGFzdGljLnJlc2VuZF9jaHVua3NIAEIRCg9wYXlsb2FkX3ZhcmlhbnQqgREK",
             "DUhhcmR3YXJlTW9kZWwSCQoFVU5TRVQQABIMCghUTE9SQV9WMhABEgwKCFRM",
             "T1JBX1YxEAISEgoOVExPUkFfVjJfMV8xUDYQAxIJCgVUQkVBTRAEEg8KC0hF",
             "TFRFQ19WMl8wEAUSDgoKVEJFQU1fVjBQNxAGEgoKBlRfRUNITxAHEhAKDFRM",
@@ -231,31 +231,33 @@ namespace Meshtastic.Protobufs {
             "Uk8QYBINCglDUk9XUEFORUwQYRILCgdMSU5LXzMyEGISGAoUU0VFRURfV0lP",
             "X1RSQUNLRVJfTDEQYxIdChlTRUVFRF9XSU9fVFJBQ0tFUl9MMV9FSU5LEGQS",
             "FAoQUVdBTlRaX1RJTllfQVJNUxBlEg4KClRfREVDS19QUk8QZhIQCgxUX0xP",
-            "UkFfUEFHRVIQZxIdChlHQVQ1NjJfTUVTSF9UUklBTF9UUkFDS0VSEGgSDwoL",
-            "V0lTTUVTSF9UQUcQaRILCgdSQUszMzEyEGoSEAoMVEhJTktOT0RFX001EGsS",
-            "FQoRSEVMVEVDX01FU0hfU09MQVIQbBIPCgtUX0VDSE9fTElURRBtEg8KClBS",
-            "SVZBVEVfSFcQ/wEqLAoJQ29uc3RhbnRzEggKBFpFUk8QABIVChBEQVRBX1BB",
-            "WUxPQURfTEVOEOkBKrQCChFDcml0aWNhbEVycm9yQ29kZRIICgROT05FEAAS",
-            "DwoLVFhfV0FUQ0hET0cQARIUChBTTEVFUF9FTlRFUl9XQUlUEAISDAoITk9f",
-            "UkFESU8QAxIPCgtVTlNQRUNJRklFRBAEEhUKEVVCTE9YX1VOSVRfRkFJTEVE",
-            "EAUSDQoJTk9fQVhQMTkyEAYSGQoVSU5WQUxJRF9SQURJT19TRVRUSU5HEAcS",
-            "EwoPVFJBTlNNSVRfRkFJTEVEEAgSDAoIQlJPV05PVVQQCRISCg5TWDEyNjJf",
-            "RkFJTFVSRRAKEhEKDVJBRElPX1NQSV9CVUcQCxIgChxGTEFTSF9DT1JSVVBU",
-            "SU9OX1JFQ09WRVJBQkxFEAwSIgoeRkxBU0hfQ09SUlVQVElPTl9VTlJFQ09W",
-            "RVJBQkxFEA0qfwoPRmlybXdhcmVFZGl0aW9uEgsKB1ZBTklMTEEQABIRCg1T",
-            "TUFSVF9DSVRJWkVOEAESDgoKT1BFTl9TQVVDRRAQEgoKBkRFRkNPThAREg8K",
-            "C0JVUk5JTkdfTUFOEBISDgoKSEFNVkVOVElPThATEg8KC0RJWV9FRElUSU9O",
-            "EH8qgAMKD0V4Y2x1ZGVkTW9kdWxlcxIRCg1FWENMVURFRF9OT05FEAASDwoL",
-            "TVFUVF9DT05GSUcQARIRCg1TRVJJQUxfQ09ORklHEAISEwoPRVhUTk9USUZf",
-            "Q09ORklHEAQSFwoTU1RPUkVGT1JXQVJEX0NPTkZJRxAIEhQKEFJBTkdFVEVT",
-            "VF9DT05GSUcQEBIUChBURUxFTUVUUllfQ09ORklHECASFAoQQ0FOTkVETVNH",
-            "X0NPTkZJRxBAEhEKDEFVRElPX0NPTkZJRxCAARIaChVSRU1PVEVIQVJEV0FS",
-            "RV9DT05GSUcQgAISGAoTTkVJR0hCT1JJTkZPX0NPTkZJRxCABBIbChZBTUJJ",
-            "RU5UTElHSFRJTkdfQ09ORklHEIAIEhsKFkRFVEVDVElPTlNFTlNPUl9DT05G",
-            "SUcQgBASFgoRUEFYQ09VTlRFUl9DT05GSUcQgCASFQoQQkxVRVRPT1RIX0NP",
-            "TkZJRxCAQBIUCg5ORVRXT1JLX0NPTkZJRxCAgAFCXwoTY29tLmdlZWtzdmls",
-            "bGUubWVzaEIKTWVzaFByb3Rvc1oiZ2l0aHViLmNvbS9tZXNodGFzdGljL2dv",
-            "L2dlbmVyYXRlZKoCFE1lc2h0YXN0aWMuUHJvdG9idWZzugIAYgZwcm90bzM="));
+            "UkFfUEFHRVIQZxIUChBNNVNUQUNLX1JFU0VSVkVEEGgSDwoLV0lTTUVTSF9U",
+            "QUcQaRILCgdSQUszMzEyEGoSEAoMVEhJTktOT0RFX001EGsSFQoRSEVMVEVD",
+            "X01FU0hfU09MQVIQbBIPCgtUX0VDSE9fTElURRBtEg0KCUhFTFRFQ19WNBBu",
+            "Eg8KC001U1RBQ0tfQzZMEG8SGQoVTTVTVEFDS19DQVJEUFVURVJfQURWEHAS",
+            "DwoKUFJJVkFURV9IVxD/ASosCglDb25zdGFudHMSCAoEWkVSTxAAEhUKEERB",
+            "VEFfUEFZTE9BRF9MRU4Q6QEqtAIKEUNyaXRpY2FsRXJyb3JDb2RlEggKBE5P",
+            "TkUQABIPCgtUWF9XQVRDSERPRxABEhQKEFNMRUVQX0VOVEVSX1dBSVQQAhIM",
+            "CghOT19SQURJTxADEg8KC1VOU1BFQ0lGSUVEEAQSFQoRVUJMT1hfVU5JVF9G",
+            "QUlMRUQQBRINCglOT19BWFAxOTIQBhIZChVJTlZBTElEX1JBRElPX1NFVFRJ",
+            "TkcQBxITCg9UUkFOU01JVF9GQUlMRUQQCBIMCghCUk9XTk9VVBAJEhIKDlNY",
+            "MTI2Ml9GQUlMVVJFEAoSEQoNUkFESU9fU1BJX0JVRxALEiAKHEZMQVNIX0NP",
+            "UlJVUFRJT05fUkVDT1ZFUkFCTEUQDBIiCh5GTEFTSF9DT1JSVVBUSU9OX1VO",
+            "UkVDT1ZFUkFCTEUQDSp/Cg9GaXJtd2FyZUVkaXRpb24SCwoHVkFOSUxMQRAA",
+            "EhEKDVNNQVJUX0NJVElaRU4QARIOCgpPUEVOX1NBVUNFEBASCgoGREVGQ09O",
+            "EBESDwoLQlVSTklOR19NQU4QEhIOCgpIQU1WRU5USU9OEBMSDwoLRElZX0VE",
+            "SVRJT04QfyqAAwoPRXhjbHVkZWRNb2R1bGVzEhEKDUVYQ0xVREVEX05PTkUQ",
+            "ABIPCgtNUVRUX0NPTkZJRxABEhEKDVNFUklBTF9DT05GSUcQAhITCg9FWFRO",
+            "T1RJRl9DT05GSUcQBBIXChNTVE9SRUZPUldBUkRfQ09ORklHEAgSFAoQUkFO",
+            "R0VURVNUX0NPTkZJRxAQEhQKEFRFTEVNRVRSWV9DT05GSUcQIBIUChBDQU5O",
+            "RURNU0dfQ09ORklHEEASEQoMQVVESU9fQ09ORklHEIABEhoKFVJFTU9URUhB",
+            "UkRXQVJFX0NPTkZJRxCAAhIYChNORUlHSEJPUklORk9fQ09ORklHEIAEEhsK",
+            "FkFNQklFTlRMSUdIVElOR19DT05GSUcQgAgSGwoWREVURUNUSU9OU0VOU09S",
+            "X0NPTkZJRxCAEBIWChFQQVhDT1VOVEVSX0NPTkZJRxCAIBIVChBCTFVFVE9P",
+            "VEhfQ09ORklHEIBAEhQKDk5FVFdPUktfQ09ORklHEICAAUJfChNjb20uZ2Vl",
+            "a3N2aWxsZS5tZXNoQgpNZXNoUHJvdG9zWiJnaXRodWIuY29tL21lc2h0YXN0",
+            "aWMvZ28vZ2VuZXJhdGVkqgIUTWVzaHRhc3RpYy5Qcm90b2J1ZnO6AgBiBnBy",
+            "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Meshtastic.Protobufs.ChannelReflection.Descriptor, global::Meshtastic.Protobufs.ConfigReflection.Descriptor, global::Meshtastic.Protobufs.DeviceUiReflection.Descriptor, global::Meshtastic.Protobufs.ModuleConfigReflection.Descriptor, global::Meshtastic.Protobufs.PortnumsReflection.Descriptor, global::Meshtastic.Protobufs.TelemetryReflection.Descriptor, global::Meshtastic.Protobufs.XmodemReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Meshtastic.Protobufs.HardwareModel), typeof(global::Meshtastic.Protobufs.Constants), typeof(global::Meshtastic.Protobufs.CriticalErrorCode), typeof(global::Meshtastic.Protobufs.FirmwareEdition), typeof(global::Meshtastic.Protobufs.ExcludedModules), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -845,9 +847,9 @@ namespace Meshtastic.Protobufs {
     [pbr::OriginalName("T_LORA_PAGER")] TLoraPager = 103,
     /// <summary>
     ///
-    /// GAT562 Mesh Trial Tracker
+    /// M5Stack Reserved
     /// </summary>
-    [pbr::OriginalName("GAT562_MESH_TRIAL_TRACKER")] Gat562MeshTrialTracker = 104,
+    [pbr::OriginalName("M5STACK_RESERVED")] M5StackReserved = 104,
     /// <summary>
     ///
     /// RAKwireless WisMesh Tag
@@ -874,6 +876,21 @@ namespace Meshtastic.Protobufs {
     /// Lilygo T-Echo Lite
     /// </summary>
     [pbr::OriginalName("T_ECHO_LITE")] TEchoLite = 109,
+    /// <summary>
+    ///
+    /// New Heltec LoRA32 with ESP32-S3 CPU
+    /// </summary>
+    [pbr::OriginalName("HELTEC_V4")] HeltecV4 = 110,
+    /// <summary>
+    ///
+    /// M5Stack C6L
+    /// </summary>
+    [pbr::OriginalName("M5STACK_C6L")] M5StackC6L = 111,
+    /// <summary>
+    ///
+    /// M5Stack Cardputer Adv
+    /// </summary>
+    [pbr::OriginalName("M5STACK_CARDPUTER_ADV")] M5StackCardputerAdv = 112,
     /// <summary>
     ///
     /// ------------------------------------------------------------------------------------------------------------------------------------------

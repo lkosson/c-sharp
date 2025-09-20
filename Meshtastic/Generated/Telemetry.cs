@@ -119,7 +119,7 @@ namespace Meshtastic.Protobufs {
             "cmljcxgHIAEoCzIZLm1lc2h0YXN0aWMuSGVhbHRoTWV0cmljc0gAEi8KDGhv",
             "c3RfbWV0cmljcxgIIAEoCzIXLm1lc2h0YXN0aWMuSG9zdE1ldHJpY3NIAEIJ",
             "Cgd2YXJpYW50Ij4KDU5hdTc4MDJDb25maWcSEgoKemVyb09mZnNldBgBIAEo",
-            "BRIZChFjYWxpYnJhdGlvbkZhY3RvchgCIAEoAirgBAoTVGVsZW1ldHJ5U2Vu",
+            "BRIZChFjYWxpYnJhdGlvbkZhY3RvchgCIAEoAirtBAoTVGVsZW1ldHJ5U2Vu",
             "c29yVHlwZRIQCgxTRU5TT1JfVU5TRVQQABIKCgZCTUUyODAQARIKCgZCTUU2",
             "ODAQAhILCgdNQ1A5ODA4EAMSCgoGSU5BMjYwEAQSCgoGSU5BMjE5EAUSCgoG",
             "Qk1QMjgwEAYSCQoFU0hUQzMQBxIJCgVMUFMyMhAIEgsKB1FNQzYzMTAQCRIL",
@@ -133,9 +133,9 @@ namespace Meshtastic.Protobufs {
             "UkFEU0VOUxAhEgoKBklOQTIyNhAiEhAKDERGUk9CT1RfUkFJThAjEgoKBkRQ",
             "UzMxMBAkEgwKCFJBSzEyMDM1ECUSDAoITUFYMTcyNjEQJhILCgdQQ1QyMDc1",
             "ECcSCwoHQURTMVgxNRAoEg8KC0FEUzFYMTVfQUxUECkSCQoFU0ZBMzAQKhIJ",
-            "CgVTRU41WBArQmQKE2NvbS5nZWVrc3ZpbGxlLm1lc2hCD1RlbGVtZXRyeVBy",
-            "b3Rvc1oiZ2l0aHViLmNvbS9tZXNodGFzdGljL2dvL2dlbmVyYXRlZKoCFE1l",
-            "c2h0YXN0aWMuUHJvdG9idWZzugIAYgZwcm90bzM="));
+            "CgVTRU41WBArEgsKB1RTTDI1NjEQLEJkChNjb20uZ2Vla3N2aWxsZS5tZXNo",
+            "Qg9UZWxlbWV0cnlQcm90b3NaImdpdGh1Yi5jb20vbWVzaHRhc3RpYy9nby9n",
+            "ZW5lcmF0ZWSqAhRNZXNodGFzdGljLlByb3RvYnVmc7oCAGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Meshtastic.Protobufs.TelemetrySensorType), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -379,6 +379,11 @@ namespace Meshtastic.Protobufs {
     /// SEN5X PM SENSORS
     /// </summary>
     [pbr::OriginalName("SEN5X")] Sen5X = 43,
+    /// <summary>
+    ///
+    /// TSL2561 light sensor
+    /// </summary>
+    [pbr::OriginalName("TSL2561")] Tsl2561 = 44,
   }
 
   #endregion
